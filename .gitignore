@@ -1,1 +1,9 @@
 /data/dataset/*
+/.venv
+/__pycache__
+/weights/automatic
+
+./data/dataset
+./.venv
+./__pycache__
+./weights/automatic
