@@ -22,4 +22,11 @@ The latest version of the model (`./weights/manual/improved.pkl`) achieved the f
 
 
 Below is an example of the model processing an MRI scan with a brain tumor.
-![enter image description here](https://i.postimg.cc/K8SLgfnB/output.png)s
+![enter image description here](https://i.postimg.cc/K8SLgfnB/output.png)
+
+Below are training statistics for the model.
+
+![enter image description here](https://i.postimg.cc/NMFn3BC6/training.png)
+![enter image description here](https://i.postimg.cc/cCpgJW3n/accuracy.png)
+![enter image description here](https://i.postimg.cc/Vspbgqhk/loss.png)
+
