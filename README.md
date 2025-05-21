@@ -1,8 +1,9 @@
 # Brain Tumor Detection
 
-Authors: Luka Marković and Elena Anđelković
-Mentors: Novak Stijepić and Vladan Bašić
-Insitution: [PFE](https://pfe.rs/) 
+**Authors:** Luka Marković and Elena Anđelković  
+**Mentors:** Novak Stijepić and Vladan Bašić  
+**Institution:** [PFE](https://pfe.rs/)
+
 ## Idea
 This project focuses on the detection and segmentation of brain tumors in MRI scans using computer vision and deep learning techniques. We worked on developing a pipeline that preprocesses MRI images and applies a fine-tuned U-Net model for accurate tumor identification. We used the [Figshare Brain Tumor dataset](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation/data) as the foundation for training and testing.
 
