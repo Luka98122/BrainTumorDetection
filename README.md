@@ -15,9 +15,11 @@ One of the first steps we took was processing the images to make it easier to an
 The next step was to look into choosing a type of Machine Learning suitable for this, as well as the model. After thorough consideration we chose to take a pre-trained [U-Net](https://en.wikipedia.org/wiki/U-Net) model, [resnet34](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet34.html), which is trained on the [ImageNet](https://www.image-net.org/) database, and fine-tuned it using the Figshare Brain tumor dataset previously mentioned. With this approach we were able to reach an accuracy as high as 93.15%, and a loss of 0.39 before hitting a soft-cap.
 
 ## Results
-The latest version of the model (./weights/manual/improved.pkl ) achieved the following metrics:
-**Precision**: 0.8763 
-**Recall**: 0.9997 
-**F1 Score**: 0.9339
+The latest version of the model (`./weights/manual/improved.pkl`) achieved the following metrics:  
+**Precision:** 0.8763  
+**Recall:** 0.9997  
+**F1 Score:** 0.9339  
+
+
 Below is an example of the model processing an MRI scan with a brain tumor.
 ![enter image description here](https://i.postimg.cc/K8SLgfnB/output.png)s
